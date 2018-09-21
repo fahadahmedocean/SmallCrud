@@ -17,11 +17,15 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import model.Person;
+/*
 
-/**
- *
- * @author rodrigo
- */
+        Created by IntelliJ IDEA.
+        User: Fahad
+        Date: 9/18/2018
+        Time: 12:18 AM
+        To change this template use File | Settings | File Templates.
+*/
+
 @WebServlet(name = "PersonController", urlPatterns = {"/PersonController"})
 public class PersonController extends HttpServlet {
 
